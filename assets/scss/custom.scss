@@ -1,0 +1,42 @@
+//MAUTIC
+.mauticform-errormsg {
+    font-weight: bold;
+    color: $amarelo;
+}
+
+.mauticform-message {
+    color: #008000b8;
+    font-weight: bold;
+}
+
+//SOCIAL ICONS SHARE
+#single-post {
+    .social-media-icons {
+        position: absolute;
+        left: -80px;
+        a {
+            display: block;
+            width: 100%;
+            height: auto;
+            img {
+                margin: 0;
+            }
+        }
+    }
+}
+
+.alm-reveal {
+    a {
+        display: block;
+    }
+}
+#ajax-load-more{
+    width: 100%;
+}
+@media screen and (min-width: $sm) {
+    //AJAX LOAD MORE
+    .alm-reveal {
+        display: flex;
+        width: 100%;
+    }
+}
